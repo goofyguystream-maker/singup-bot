@@ -24,7 +24,7 @@ let sessionActive = false;
 
 client.once("clientReady", async () => {
     console.log(`Logged in as ${client.user.tag}`);
-    const channel = await client.channels.fetch(CHANNEL_ID);
+    const channel = await client.channels.fetch(1502265484673024100);
     startSession(channel);
 });
 
